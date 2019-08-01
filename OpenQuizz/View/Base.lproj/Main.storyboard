@@ -51,6 +51,7 @@
                                     <constraint firstAttribute="width" constant="37" id="2ud-pB-IV6"/>
                                     <constraint firstAttribute="height" constant="37" id="juu-wB-VFZ"/>
                                 </constraints>
+                                <color key="color" red="0.40423873066902161" green="0.55177944898605347" blue="0.764731764793396" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIX-sh-MVJ" customClass="QuestionView" customModule="OpenQuizz" customModuleProvider="target">
                                 <rect key="frame" x="41" y="35" width="293.5" height="293.5"/>
@@ -103,7 +104,7 @@
                                     <constraint firstAttribute="height" constant="60" id="bzg-Mh-oyE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Balham" family="Balham" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.75320971012115479" green="0.768227219581604" blue="0.7882387638092041" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=compact">
                                     <mask key="constraints">
@@ -115,7 +116,7 @@
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.3424746394" green="0.41935455799999999" blue="0.50887805220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JKa-1p-zzy" secondAttribute="trailing" constant="20" id="4ZP-Xm-snS"/>
                             <constraint firstItem="MIX-sh-MVJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7CA-vz-lM8"/>

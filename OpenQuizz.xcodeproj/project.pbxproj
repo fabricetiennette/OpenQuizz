@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		2C0F99F822F34A7100299D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F99F722F34A7100299D8A /* AppDelegate.swift */; };
 		2C0F99FA22F34A7100299D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F99F922F34A7100299D8A /* ViewController.swift */; };
-		2C0F99FD22F34A7100299D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F99FB22F34A7100299D8A /* Main.storyboard */; };
-		2C0F99FF22F34A7200299D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F99FE22F34A7200299D8A /* Assets.xcassets */; };
-		2C0F9A0222F34A7200299D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F9A0022F34A7200299D8A /* LaunchScreen.storyboard */; };
+		2C0F9A0D22F34B1D00299D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F9A0A22F34B1D00299D8A /* Assets.xcassets */; };
+		2C0F9A0E22F34B1D00299D8A /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F9A0B22F34B1D00299D8A /* Balham.otf */; };
+		2C0F9A1422F34B2B00299D8A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1122F34B2B00299D8A /* Game.swift */; };
+		2C0F9A1522F34B2B00299D8A /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1222F34B2B00299D8A /* QuestionManager.swift */; };
+		2C0F9A1622F34B2B00299D8A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1322F34B2B00299D8A /* Question.swift */; };
+		2C0F9A1B22F34B3D00299D8A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1822F34B3D00299D8A /* QuestionView.swift */; };
+		2C0F9A1C22F34B3D00299D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1922F34B3D00299D8A /* Main.storyboard */; };
+		2C0F9A1E22F34CDB00299D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F9A1D22F34CDB00299D8A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C0F99F422F34A7100299D8A /* OpenQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0F99F722F34A7100299D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C0F99F922F34A7100299D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C0F99FC22F34A7100299D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C0F99FE22F34A7200299D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C0F9A0122F34A7200299D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0F9A0322F34A7200299D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0F9A0A22F34B1D00299D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C0F9A0B22F34B1D00299D8A /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		2C0F9A1122F34B2B00299D8A /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2C0F9A1222F34B2B00299D8A /* QuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		2C0F9A1322F34B2B00299D8A /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2C0F9A1822F34B3D00299D8A /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2C0F9A1A22F34B3D00299D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C0F9A1D22F34CDB00299D8A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		2C0F99F622F34A7100299D8A /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
-				2C0F99F722F34A7100299D8A /* AppDelegate.swift */,
-				2C0F99F922F34A7100299D8A /* ViewController.swift */,
-				2C0F99FB22F34A7100299D8A /* Main.storyboard */,
-				2C0F99FE22F34A7200299D8A /* Assets.xcassets */,
-				2C0F9A0022F34A7200299D8A /* LaunchScreen.storyboard */,
+				2C0F9A1D22F34CDB00299D8A /* LaunchScreen.storyboard */,
+				2C0F9A1F22F34D4B00299D8A /* Controller */,
+				2C0F9A1722F34B3D00299D8A /* View */,
+				2C0F9A1022F34B2B00299D8A /* Model */,
+				2C0F9A0922F34B1D00299D8A /* Supporting Files */,
 				2C0F9A0322F34A7200299D8A /* Info.plist */,
 			);
 			path = OpenQuizz;
+			sourceTree = "<group>";
+		};
+		2C0F9A0922F34B1D00299D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C0F9A0A22F34B1D00299D8A /* Assets.xcassets */,
+				2C0F9A0B22F34B1D00299D8A /* Balham.otf */,
+				2C0F99F722F34A7100299D8A /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C0F9A1022F34B2B00299D8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C0F9A1122F34B2B00299D8A /* Game.swift */,
+				2C0F9A1222F34B2B00299D8A /* QuestionManager.swift */,
+				2C0F9A1322F34B2B00299D8A /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C0F9A1722F34B3D00299D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C0F9A1822F34B3D00299D8A /* QuestionView.swift */,
+				2C0F9A1922F34B3D00299D8A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C0F9A1F22F34D4B00299D8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C0F99F922F34A7100299D8A /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0F9A0222F34A7200299D8A /* LaunchScreen.storyboard in Resources */,
-				2C0F99FF22F34A7200299D8A /* Assets.xcassets in Resources */,
-				2C0F99FD22F34A7100299D8A /* Main.storyboard in Resources */,
+				2C0F9A1C22F34B3D00299D8A /* Main.storyboard in Resources */,
+				2C0F9A1E22F34CDB00299D8A /* LaunchScreen.storyboard in Resources */,
+				2C0F9A0E22F34B1D00299D8A /* Balham.otf in Resources */,
+				2C0F9A0D22F34B1D00299D8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,26 +185,22 @@
 			files = (
 				2C0F99FA22F34A7100299D8A /* ViewController.swift in Sources */,
 				2C0F99F822F34A7100299D8A /* AppDelegate.swift in Sources */,
+				2C0F9A1B22F34B3D00299D8A /* QuestionView.swift in Sources */,
+				2C0F9A1622F34B2B00299D8A /* Question.swift in Sources */,
+				2C0F9A1522F34B2B00299D8A /* QuestionManager.swift in Sources */,
+				2C0F9A1422F34B2B00299D8A /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C0F99FB22F34A7100299D8A /* Main.storyboard */ = {
+		2C0F9A1922F34B3D00299D8A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2C0F99FC22F34A7100299D8A /* Base */,
+				2C0F9A1A22F34B3D00299D8A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C0F9A0022F34A7200299D8A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C0F9A0122F34A7200299D8A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

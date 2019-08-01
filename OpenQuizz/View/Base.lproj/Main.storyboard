@@ -53,10 +53,10 @@
                                 </constraints>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIX-sh-MVJ" customClass="QuestionView" customModule="OpenQuizz" customModuleProvider="target">
-                                <rect key="frame" x="65" y="20" width="245" height="245"/>
+                                <rect key="frame" x="41" y="35" width="293.5" height="293.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Un texte de test un peu long." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPU-Ks-WCE">
-                                        <rect key="frame" x="8" y="8" width="229" height="229"/>
+                                        <rect key="frame" x="8" y="8" width="277.5" height="277.5"/>
                                         <fontDescription key="fontDescription" name="Balham" family="Balham" pointSize="23"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
                                         </variation>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Icon Error" translatesAutoresizingMaskIntoConstraints="NO" id="m44-AI-Woa">
-                                        <rect key="frame" x="104.5" y="202" width="36" height="35"/>
+                                        <rect key="frame" x="128.5" y="250.5" width="36" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="36" id="617-Ja-Y4m">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="72"/>
@@ -81,20 +81,23 @@
                                     <constraint firstAttribute="bottom" secondItem="m44-AI-Woa" secondAttribute="bottom" constant="8" id="G5R-CO-mcG"/>
                                     <constraint firstItem="XPU-Ks-WCE" firstAttribute="top" secondItem="MIX-sh-MVJ" secondAttribute="top" constant="8" id="GvJ-4J-Yg8"/>
                                     <constraint firstItem="m44-AI-Woa" firstAttribute="centerX" secondItem="MIX-sh-MVJ" secondAttribute="centerX" id="Jqd-NL-UYZ"/>
+                                    <constraint firstAttribute="height" constant="293.5" id="NId-Sr-KqF"/>
                                     <constraint firstItem="m44-AI-Woa" firstAttribute="centerX" secondItem="MIX-sh-MVJ" secondAttribute="centerX" id="PZu-qr-skh"/>
                                     <constraint firstItem="XPU-Ks-WCE" firstAttribute="leading" secondItem="MIX-sh-MVJ" secondAttribute="leading" constant="8" id="Qkq-ka-Mqk"/>
                                     <constraint firstAttribute="trailing" secondItem="XPU-Ks-WCE" secondAttribute="trailing" constant="8" id="mMS-gI-4oi"/>
-                                    <constraint firstAttribute="width" constant="245" id="vo0-ev-FlB">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="480"/>
-                                    </constraint>
                                 </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="NId-Sr-KqF"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <outlet property="icon" destination="m44-AI-Woa" id="6e2-Ig-Hgu"/>
                                     <outlet property="label" destination="XPU-Ks-WCE" id="tGz-zj-3ZH"/>
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 / 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKa-1p-zzy">
-                                <rect key="frame" x="37.5" y="273" width="300" height="60"/>
+                                <rect key="frame" x="37.5" y="336.5" width="300" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="FWg-2R-tcb"/>
                                     <constraint firstAttribute="height" constant="60" id="bzg-Mh-oyE"/>
@@ -114,12 +117,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3424746394" green="0.41935455799999999" blue="0.50887805220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MIX-sh-MVJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2Jw-mv-s3i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JKa-1p-zzy" secondAttribute="trailing" constant="20" id="4ZP-Xm-snS"/>
                             <constraint firstItem="MIX-sh-MVJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7CA-vz-lM8"/>
                             <constraint firstItem="JKa-1p-zzy" firstAttribute="top" secondItem="MIX-sh-MVJ" secondAttribute="bottom" constant="8" id="8Sc-o7-kM5"/>
+                            <constraint firstItem="JKa-1p-zzy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MIX-sh-MVJ" secondAttribute="trailing" constant="8" symbolic="YES" id="9Fz-RU-U8O"/>
                             <constraint firstItem="MIX-sh-MVJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Tv-t6-d5m"/>
                             <constraint firstItem="MIX-sh-MVJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H2x-Zb-Uhd"/>
+                            <constraint firstItem="MIX-sh-MVJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="WLY-DU-1ab"/>
                             <constraint firstItem="JKa-1p-zzy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aVk-t6-ZLf"/>
                             <constraint firstItem="wvr-bC-XMe" firstAttribute="bottom" secondItem="MIX-sh-MVJ" secondAttribute="bottom" id="b7R-mw-hIU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wvr-bC-XMe" secondAttribute="bottom" constant="20" id="cnY-19-89m"/>
@@ -137,6 +141,7 @@
                                 <exclude reference="uz5-BE-J90"/>
                                 <exclude reference="7CA-vz-lM8"/>
                                 <exclude reference="9Tv-t6-d5m"/>
+                                <exclude reference="9Fz-RU-U8O"/>
                                 <exclude reference="fqA-yt-o3d"/>
                                 <exclude reference="qzX-xg-Xnp"/>
                                 <exclude reference="b7R-mw-hIU"/>
@@ -147,11 +152,11 @@
                                 <include reference="4ZP-Xm-snS"/>
                                 <exclude reference="cnY-19-89m"/>
                                 <include reference="uz5-BE-J90"/>
-                                <exclude reference="2Jw-mv-s3i"/>
                                 <include reference="7CA-vz-lM8"/>
                                 <include reference="9Tv-t6-d5m"/>
                                 <exclude reference="H2x-Zb-Uhd"/>
                                 <exclude reference="8Sc-o7-kM5"/>
+                                <include reference="9Fz-RU-U8O"/>
                                 <exclude reference="aVk-t6-ZLf"/>
                                 <include reference="fqA-yt-o3d"/>
                                 <include reference="qzX-xg-Xnp"/>
